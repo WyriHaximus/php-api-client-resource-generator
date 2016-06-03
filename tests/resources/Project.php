@@ -3,6 +3,7 @@
 namespace Example\Client\Resource;
 
 use WyriHaximus\ApiClient\Resource\TransportAwareTrait;
+
 abstract class Project implements ProjectInterface
 {
     use TransportAwareTrait;
